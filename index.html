@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy your Drone</title>
+    <meta name="description" content="Utforska världen från himlen med vår premium drönare. 4K-kamera, 45 min batteritid och 10 km räckvidd. Perfekt för fotografi och äventyr.">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Köp Premium Drönare | DBA">
+    <meta property="og:description" content="Utforska världen från himlen med vår premium drönare. 4K-kamera, 45 min batteritid.">
+    <meta property="og:type" content="product">
+    <meta property="og:image" content="https://images.pexels.com/photos/724921/pexels-photo-724921.jpeg?auto=compress&cs=tinysrgb&w=1200">
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container container">
+            <a class="header__link" href="#">DBA</a>
+            <div class="header__button">
+                <a class="header__login" href="#">Log in</a>
+                <a href="#menu" class="menu__icon icon-menu" aria-label="Menu"><span></span></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="search">
+        <div class="search__container container">
+            
+            <div class="search__bar">
+                <label for="search" style="display:none;">Search</label>
+                <input class="search__input" id="search" type="text" placeholder="Find what you need..." aria-label="Search for products">
+            </div>
+
+        </div>
+    </section>            <section class="hero container">
+        	    <div class="images-main">
+	    	
+                    <div class="images">
+                        <div class="gallery gallery-2">
+                            <a class="gallery-link" href="https://images.pexels.com/photos/724921/pexels-photo-724921.jpeg?auto=compress&cs=tinysrgb&w=1920" onclick="FullView(this.href); return false;">
+                                <img class="gallery-main" src="https://images.pexels.com/photos/724921/pexels-photo-724921.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Drone aerial view">
+                            </a>
+
+                            <div class="gallery-thumbs">
+                                <a class="gallery-link" href="https://images.pexels.com/photos/1757697/pexels-photo-1757697.jpeg?auto=compress&cs=tinysrgb&w=1920" onclick="FullView(this.href); return false;">
+                                    <img class="gallery-thumb" src="https://images.pexels.com/photos/1757697/pexels-photo-1757697.jpeg" alt="Drone photography">
+                                </a>
+                                <a class="gallery-link" href="https://images.pexels.com/photos/739410/pexels-photo-739410.jpeg?auto=compress&cs=tinysrgb&w=1920" onclick="FullView(this.href); return false;">
+                                    <img class="gallery-thumb" src="https://images.pexels.com/photos/739410/pexels-photo-739410.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Landscape drone shot">
+                                </a>
+                                <a class="gallery-link" href="https://images.pexels.com/photos/2641822/pexels-photo-2641822.jpeg?auto=compress&cs=tinysrgb&w=1920" onclick="FullView(this.href); return false;">
+                                    <img class="gallery-thumb" src="https://images.pexels.com/photos/2641822/pexels-photo-2641822.jpeg" alt="Drone technology">
+                                </a>
+                            </div>             
+                        </div>        
+                    </div>
+        		</div>
+
+                <div class="hero-text">
+                    <h1 class="card__item-title">Premium Drone</h1>
+
+                    <p class="card__item-text">Utforska världen från himlen med vår premium drönare. Perfekt för fotografi, videor och äventyr. Högprestanda, långt batteri och enkel användning. Skaffa din drönare idag! Vår drönare är utrustad med en 4K-kamera som fångar varje detalj med kristallklar skärpa. Med en flygräckvidd på upp till 10 km och en batteritid på 45 minuter, kan du utforska områden som aldrig tidigare varit möjliga.</p>
+
+                    <!-- <button class="button-64" role="button"><span class="text">BUY NOW</span></button> -->
+
+                    <a href="/" class="hero-button button" role="button" aria-label="Buy Now">Buy Now</a>
+
+                </div>
+            </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row container">        
+            <div class="footer__links footer__col footer__inst">
+                <ul class="footer_links-list">
+                    <li class="footer_links-items"><a href="#">Personal data policy</a></li>
+                    <li class="footer_links-items"><a href="#">Terms of use</a></li>
+                    <li class="footer_links-items"><a href="#">Rules</a></li>
+                </ul>
+            </div> 
+
+            <div class="footer__links footer__col">    
+                <ul class="footer_links-list">
+                    <li class="footer_links-items footer_links-items--right"><a href="#">About us</a></li>
+                    <li class="footer_links-items footer_links-items--right"><a href="#">Contact us</a></li>
+                    <li class="footer_links-items footer_links-items--right"><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer__links footer__col footer__col-last">
+                    <div class="footer__social-links links">
+                    <a href="#" aria-label="Pinterest"><img src="https://img.icons8.com/fluency/344/pinterest.png" alt="Pinterest"></a>
+                    <a href="#" aria-label="Instagram"><img src="https://img.icons8.com/plasticine/2x/instagram-new--v2.png" alt="Instagram"></a>
+                    <a href="#" aria-label="X"><img src="https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=000000" alt="X"></a> 
+                    <a href="#" aria-label="Facebook"><img src="https://img.icons8.com/color/2x/facebook.png" alt="Facebook"></a>
+                </div>
+            </div>
+        </div>    
+    </footer>
+
+            <div id="FullImageView">
+
+                <img id='FullImage' alt="Full size gallery image" />
+
+                <button id="PrevButton" class="gallery-nav gallery-nav-prev" aria-label="Previous image">‹</button>
+                <button id="NextButton" class="gallery-nav gallery-nav-next" aria-label="Next image">›</button>
+
+                <span id="CloseButton" role="button" tabindex="0" aria-label="Close image" onclick="CloseFullView()">×</span>
+
+            </div> 
+
+
+            <script src="main.js"></script>
+
+        </body>
+        </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
