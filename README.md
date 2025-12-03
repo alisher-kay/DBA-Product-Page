@@ -1,59 +1,59 @@
 # 🚁 DBA Premium Drone - Landing Page
 
-En modern och responsiv produktsida för en premium drönare, byggd med ren HTML, CSS och JavaScript.
+A modern and responsive product page for a premium drone, built with pure HTML, CSS and JavaScript.
 
 ![Preview](https://images.pexels.com/photos/724921/pexels-photo-724921.jpeg?auto=compress&cs=tinysrgb&w=600)
 
-## ✨ Funktioner
+## ✨ Features
 
-- 🎨 **Modern design** - Ren och stilfull layout med gradient-bakgrund
-- 📱 **Fully responsiv** - Fungerar på alla skärmstorlekar (mobil, tablet, desktop)
-- 🖼️ **Bildgalleri med lightbox** - Klicka på bilder för fullskärmsvisning
-- ⌨️ **Tangentbordsnavigering** - Använd piltangenter och Escape i lightbox
-- 🔍 **SEO-optimerad** - Meta-taggar för sökmotorer och sociala medier
-- ♿ **Tillgänglig** - ARIA-labels och semantisk HTML
+- 🎨 **Modern design** - Clean and stylish layout with gradient background
+- 📱 **Fully responsive** - Works on all screen sizes (mobile, tablet, desktop)
+- 🖼️ **Image gallery with lightbox** - Click images for fullscreen view
+- ⌨️ **Keyboard navigation** - Use arrow keys and Escape in lightbox
+- 🔍 **SEO optimized** - Meta tags for search engines and social media
+- ♿ **Accessible** - ARIA labels and semantic HTML
 
-## 🛠️ Teknologier
+## 🛠️ Technologies
 
 - HTML5
 - CSS3 (Flexbox, Grid, Media Queries)
 - Vanilla JavaScript
 - Google Fonts (Maven Pro, Manrope)
 
-## 📁 Filstruktur
+## 📁 File Structure
 
 ```
 DBA-Front-Page/
-├── index.html          # Huvudsida
-├── style.css           # Stilmall
-├── main.js             # JavaScript för lightbox
-├── images/             # Bildmapp
-└── README.md           # Dokumentation
+├── index.html          # Main page
+├── style.css           # Stylesheet
+├── main.js             # JavaScript for lightbox
+├── images/             # Image folder
+└── README.md           # Documentation
 ```
 
-## 🚀 Kom igång
+## 🚀 Getting Started
 
-1. Klona repot:
+1. Clone the repo:
    ```bash
    git clone https://github.com/alisher-kay/DBA-Front-Page.git
    ```
 
-2. Öppna `index.html` i din webbläsare
+2. Open `index.html` in your browser
 
-Eller besök live-versionen: [GitHub Pages](https://alisher-kay.github.io/DBA-Front-Page/)
+Or visit the live version: [GitHub Pages](https://alisher-kay.github.io/DBA-Front-Page/)
 
 ## 📸 Screenshots
 
 ### Desktop
-Responsiv layout med bildgalleri och produktbeskrivning sida vid sida.
+Responsive layout with image gallery and product description side by side.
 
-### Mobil
-Kolumnlayout med bilder överst och text under.
+### Mobile
+Column layout with images on top and text below.
 
-## 📄 Licens
+## 📄 License
 
-MIT License - Använd fritt för egna projekt!
+MIT License - Feel free to use for your own projects!
 
 ---
 
-Skapad med ❤️ av [alisher-kay](https://github.com/alisher-kay)
+Created with ❤️ by [alisher-kay](https://github.com/alisher-kay)
