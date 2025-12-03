@@ -2,8 +2,6 @@
 
 A modern and responsive product page for a premium drone, built with pure HTML, CSS and JavaScript.
 
-![Preview](https://images.pexels.com/photos/724921/pexels-photo-724921.jpeg?auto=compress&cs=tinysrgb&w=600)
-
 ## ✨ Features
 
 - 🎨 **Modern design** - Clean and stylish layout with gradient background
@@ -56,4 +54,4 @@ MIT License - Feel free to use for your own projects!
 
 ---
 
-Created with ❤️ by [alisher-kay](https://github.com/alisher-kay)
+Created by [alisher-kay](https://github.com/alisher-kay)
